@@ -1,0 +1,171 @@
+{
+    "asset": {
+        "copyright": "2019 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 0e7afd3ecfb022815b671af3f21d3bb00bdc6e74",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 16448,
+            "type": "VEC3",
+            "max": [
+                1.1076855659484864,
+                0.7800359725952148,
+                4.417858123779297
+            ],
+            "min": [
+                -1.1076842546463013,
+                0.0,
+                4.38295841217041
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 16448,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 16448,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 63426,
+            "type": "SCALAR",
+            "max": [
+                16447.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 197376,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 197376,
+            "byteLength": 197376,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 394752,
+            "byteLength": 131584,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 526336,
+            "byteLength": 253704,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 780040,
+            "uri": "csi_extrusion_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000047652913053752857,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.620910167694092,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.015208514407277108,
+                    0.17464739084243775,
+                    0.5394796133041382,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.028999999165534974
+            },
+            "name": "Plástico"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Layer 1_N3D",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                1.8954730033874512,
+                0.9102492928504944,
+                5.922616004943848
+            ],
+            "rotation": [
+                -0.12059047818183899,
+                0.3794096112251282,
+                0.04995023459196091,
+                0.9159755706787109
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                -3.3786561489105226,
+                0.45996755361557009,
+                0.970737874507904
+            ],
+            "rotation": [
+                0.04780515283346176,
+                0.40643855929374697,
+                -0.021300598978996278,
+                0.9121779799461365
+            ],
+            "scale": [
+                1.0000001192092896,
+                1.0,
+                1.0
+            ],
+            "mesh": 0,
+            "name": "Layer 1"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
